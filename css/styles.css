@@ -1,8 +1,18 @@
+/* Tag SELECTORS */
+
 body {
     background-color: #EAF6F6;
-  }
+}
 
-  hr {
+h1 {
+   color: #66BFBF 
+}
+
+h3 {
+    color: #66BFBF 
+ }
+
+hr {
     /* background-color: white; */
     border-color: grey;
     border-style: none;
@@ -11,3 +21,28 @@ body {
     width: 5%;
     border-width: 5px;
   }
+
+/* img:hover {
+    background-color: gold;
+} */
+
+/* CLASS SELECTORS */
+/* Can use class in multiple places */
+/* Elements can have more than 1 class */
+
+/* .bacon {
+    background-color: red;
+  } */
+
+.circular {
+    border-radius: 100%;
+}
+
+/* ID SELECTORS */
+/* Can only use ID in one place */
+/* Can't use more than one ID */
+/* Rarely used */
+
+#heading {
+    background-color: blue;
+}
